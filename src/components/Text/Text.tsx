@@ -14,7 +14,7 @@ export default function Text({
   return (
     <p
       className={[
-        style["text"],
+        style.text,
         style[textAlign],
         style[`marginBottom${marginBottom}`],
       ].join(" ")}
